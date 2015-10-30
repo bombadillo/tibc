@@ -1,0 +1,18 @@
+{
+  "name": "tibc",
+  "version": "0.0.2",
+  "description": "Add background image to trello",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": true
+  },
+  "web_accessible_resources": ["/images/image.jpg"]
+}
