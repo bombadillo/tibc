@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "brewCoffee": "coffee -o dist/ -c src/",
-    "hotCoffee": "coffee -o dist/ -cw src/",
-    "hotTests": "coffee -cwo spec/ spec/"
+    "brew-coffee": "coffee -o dist/ -c src/",
+    "hot-coffee": "coffee -o dist/ -cw src/",
+    "hot-tests": "coffee -cwo spec/ spec/"
   }
 }
